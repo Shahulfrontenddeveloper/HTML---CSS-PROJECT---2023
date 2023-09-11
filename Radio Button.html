@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>Radio Button</title>
+<meta charset="utf-8">
+</head>
+<body>
+<table align="center">
+<tr>
+<th>Gender:</th>
+<td><input type="radio" id="a" name="Gender" value="Male" >
+<label for="Male">Male</label></td>
+<td><input type="radio" id="b" name="Gender" value="Female">
+<label for="Female">Female</label></td>
+</tr>
+</body>
+<table>
+</html>
+<style>
+th{
+padding:10px; margin:auto; font-size:25px; color:red;
+}
+
+label {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.a{
+font-size:20px; margin:auto; 
+}
+.b{
+font-size:20px;
+}
+#a:checked+ label{
+    color:blue;
+	}
+#b:checked+ label{
+    color:pink;
+	}
+</style>	

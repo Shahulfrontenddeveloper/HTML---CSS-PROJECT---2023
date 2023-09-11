@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<h1>Contact Us:</h1>
+</header>
+<main>
+<form action="Indexpage.html" method="post" autocomplete="on" align="left">
+<div>
+<label>Name</Label>
+<input type="text" name="name" width="25px;" required autofocus placeholder="Enter your Name">
+</div>
+<div>
+<label>Mobile Number</Label>
+<input type="text" name="name" width="25px;" required autofocus placeholder="Enter your Number">
+</div>
+<div>
+<label>Email</Label>
+<input type="email" name="emailid" width="25px;" pattern="{a-z A-Z 0-9} {5,10}" title="should be 5-10 alphanumeric" required autofocus placeholder="Enter your Email" multiple>
+</div>
+<div>
+<label>Enquiry</Label>
+<textarea rows="10" cols="20"></textarea>
+</div>
+<div>
+<button type="submit" onclick="alert('Data Submitted');" align="right">Submit</button>
+</div>
+   <div class="social-links">
+      <a href="https://www.facebook.com/Shahul241295" target="_blank">
+        <img src="Facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/shahulcr/" target="_blank">
+        <img src="Instagram.png" alt="Instagram">
+      </a>
+    </div>
+</form>
+</main>
+</body>
+</html>
+<style>
+h1{
+padding:10px;
+background-color:#03fc0b;
+height:30px; width:150px;
+text-align:center;
+color:white;
+font-variant:small-caps;
+border-radius:20px;
+font-size:25px;
+margin:20px;
+}
+form{
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin:10px;
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin:10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 5px;
+}
+.social-links {
+  margin-top: 10px;
+  margin-left:100px;
+}
+</style>
